@@ -234,7 +234,7 @@ const UpdateScreen = props => {
         break;
 
       case 'photo':
-        return(  <Pressable style={{height:'80%'}} onPress={()=>handlePhotoChange()}>
+        return(  <Pressable style={{height:'80%',borderColor:'black',borderWidth:1}} onPress={()=>handlePhotoChange()}>
           <Image
               source={{uri:'data:mage/png;base64,'+image}}
               resizeMode='cover'
