@@ -31,3 +31,4 @@ npx react-native run-ios
 ```
 
 this will start emulator and you can run the application
+You can edit all the details and upload the picture
