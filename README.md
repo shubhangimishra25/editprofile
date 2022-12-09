@@ -6,8 +6,22 @@ In this application you are supposed to edit the details of the user
 
 #### COMMAND
 You just have to type in this command for initializing the app
-
-
+``` bash 
+npm i
+```
+Then go to ios folder by typing command
+``` bash 
+cd ios
+```
+Then type this command inside ios folder
+``` bash 
+pod install
+```
+Then go out of ios folder by typing
+``` bash 
+cd ..
+```
+Then type this command
 ``` bash 
 npx react-native start
 ```
